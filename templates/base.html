@@ -16,6 +16,8 @@
     {% block corecss %}
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Signika+Negative&display=swap"
+        rel="stylesheet">
     {% endblock %}
 
     {% block extra_css %}
@@ -43,7 +45,7 @@
 <body>
 
     <header class="container-fluid fixed-top">
-        <div class="row">
+        <div id='topnav' class="row bg-set pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <h2 class="logo-font text-set my-0"><strong>Fabbro</strong> Knives</h2>
@@ -52,10 +54,10 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="">
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q"
+                        <input class="form-control border border-set rounded-0" type="text" name="q"
                             placeholder="Search our knives">
                         <div class="input-group-append">
-                            <button class="form-control btn btn-black border border-black rounded-0" type="submit">
+                            <button class="form-control btn btn-set border border-set rounded-0" type="submit">
                                 <span class="icon">
                                     <i class="fas fa-search"></i>
                                 </span>
@@ -88,7 +90,7 @@
                         </div>
                     </li>
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-set% endif %} nav-link"
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-set{% endif %} nav-link"
                             href="">
                             <div class="text-center">
                                 <div><i class="fas fa-shopping-bag fa-lg"></i></div>
