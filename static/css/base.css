@@ -61,7 +61,11 @@ body {
 }
 
 .bg-set {
-    background: #B1A18A;
+    background: #B1A18A !important;
+}
+
+.bg-set-2 {
+    background: #252840 !important;
 }
 
 /* -------------------------------- Media Queries */
