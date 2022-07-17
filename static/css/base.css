@@ -19,7 +19,7 @@ body {
 }
 
 .logo-font {
-    text-transform: uppercase;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 
 .main-logo-link {
