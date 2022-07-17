@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('media/main-bg.jpg') no-repeat center center fixed;
+    background: url('/media/main-bg.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     font-family: 'Signika Negative', sans-serif;
@@ -20,13 +20,14 @@ body {
 
 .logo-font {
     font-family: 'Edu VIC WA NT Beginner', cursive;
+
 }
 
 .main-logo-link {
     width: fit-content;
 }
 
-.shop-now-button {
+.buy-now-button {
     background: #252840;
     color: #B1A18A;
     min-width: 260px;
@@ -37,9 +38,9 @@ body {
     color: #B1A18A;
 }
 
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
+.buy-now-button:hover,
+.buy-now-button:active,
+.buy-now-button:focus,
 .btn-set:hover,
 .btn-set:active,
 .btn-set:focus {
@@ -49,6 +50,10 @@ body {
 
 .text-set {
     color: #252840 !important;
+}
+
+.text-set-2 {
+    color: #B1A18A;
 }
 
 .border-set {
