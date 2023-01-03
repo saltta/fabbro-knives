@@ -1,0 +1,10 @@
+[
+    {
+      "pk": 1,
+      "model": "stock.category",
+      "fields": {
+        "name": "",
+        "friendly_name": ""
+      }
+    }
+]
