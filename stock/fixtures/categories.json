@@ -3,8 +3,64 @@
       "pk": 1,
       "model": "stock.category",
       "fields": {
-        "name": "",
-        "friendly_name": ""
+        "name": "kitchen",
+        "friendly_name": "Kitchen"
       }
-    }
+    },
+    {
+        "pk": 2,
+        "model": "stock.category",
+        "fields": {
+          "name": "outdoor",
+          "friendly_name": "Outdoor"
+        }
+      },
+      {
+        "pk": 3,
+        "model": "stock.category",
+        "fields": {
+          "name": "maintenance",
+          "friendly_name": "Maintenance"
+        }
+      },
+      {
+        "pk": 4,
+        "model": "stock.category",
+        "fields": {
+          "name": "pans",
+          "friendly_name": "Pans"
+        }
+      },
+      {
+        "pk": 5,
+        "model": "stock.category",
+        "fields": {
+          "name": "cutting_boards",
+          "friendly_name": "Cutting Boards"
+        }
+      },
+      {
+        "pk": 6,
+        "model": "stock.category",
+        "fields": {
+          "name": "new_arrivals",
+          "friendly_name": "New Arrivals"
+        }
+      },
+      {
+        "pk": 7,
+        "model": "stock.category",
+        "fields": {
+          "name": "deals",
+          "friendly_name": "Deals"
+        }
+      },
+      {
+        "pk": 8,
+        "model": "stock.category",
+        "fields": {
+          "name": "last_chance",
+          "friendly_name": "Last Chance"
+        }
+      },
 ]
