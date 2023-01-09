@@ -1,381 +1,379 @@
-[
-    {
-      "pk": 1,
-      "model": "stock.product",
-      "fields": {
-        "sku": "T7TQN1VXWHYG",
-        "name": "Boning Knife 5\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+[{
+    "pk": 1,
+    "model": "stock.product",
+    "fields": {
+      "sku": "T7TQN1VXWHYG",
+      "name": "Boning Knife 5\"",
+      "description": "",
+      "price": ,
+      "category": 1,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 2,
-      "model": "stock.product",
-      "fields": {
-        "sku": "PB0Y40XTR1I8",
-        "name": "Chef's knife 6\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 2,
+    "model": "stock.product",
+    "fields": {
+      "sku": "PB0Y40XTR1I8",
+      "name": "Chef's knife 6\"",
+      "description": "",
+      "price": ,
+      "category": 6,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 3,
-      "model": "stock.product",
-      "fields": {
-        "sku": "RXS8R49XUTYL",
-        "name": "Chef's knife 8\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 3,
+    "model": "stock.product",
+    "fields": {
+      "sku": "RXS8R49XUTYL",
+      "name": "Chef's knife 8\"",
+      "description": "",
+      "price": ,
+      "category": 1,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 4,
-      "model": "stock.product",
-      "fields": {
-        "sku": "WZH44YU8VUD3",
-        "name": "Chef's Knife 10\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 4,
+    "model": "stock.product",
+    "fields": {
+      "sku": "WZH44YU8VUD3",
+      "name": "Chef's Knife 10\"",
+      "description": "",
+      "price": ,
+      "category": 1,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 5,
-      "model": "stock.product",
-      "fields": {
-        "sku": "QGFD2L8ILHH9",
-        "name": "Cleaver 8\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 5,
+    "model": "stock.product",
+    "fields": {
+      "sku": "QGFD2L8ILHH9",
+      "name": "Cleaver 8\"",
+      "description": "",
+      "price": ,
+      "category": 1,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 6,
-      "model": "stock.product",
-      "fields": {
-        "sku": "IKDYD56YXBS5",
-        "name": "Peeling Knife 3\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 6,
+    "model": "stock.product",
+    "fields": {
+      "sku": "IKDYD56YXBS5",
+      "name": "Peeling Knife 3\"",
+      "description": "",
+      "price": ,
+      "category": 1,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 7,
-      "model": "stock.product",
-      "fields": {
-        "sku": "ZGP185S3PB00",
-        "name": "Knife Block",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 7,
+    "model": "stock.product",
+    "fields": {
+      "sku": "ZGP185S3PB00",
+      "name": "Knife Block",
+      "description": "",
+      "price": ,
+      "category": 7,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 8,
-      "model": "stock.product",
-      "fields": {
-        "sku": "04E27PXO2AAN",
-        "name": "Magnetic Knife Holder 18\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 8,
+    "model": "stock.product",
+    "fields": {
+      "sku": "04E27PXO2AAN",
+      "name": "Magnetic Knife Holder 18\"",
+      "description": "",
+      "price": ,
+      "category": 6,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 9,
-      "model": "stock.product",
-      "fields": {
-        "sku": "UZKF3QVVZ9OP",
-        "name": "Knife Sharpener",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 9,
+    "model": "stock.product",
+    "fields": {
+      "sku": "UZKF3QVVZ9OP",
+      "name": "Knife Sharpener",
+      "description": "",
+      "price": ,
+      "category": 3,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 10,
-      "model": "stock.product",
-      "fields": {
-        "sku": "C84FKO155LNS",
-        "name": "Whetstone 2000/5000 Grit",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 10,
+    "model": "stock.product",
+    "fields": {
+      "sku": "C84FKO155LNS",
+      "name": "Whetstone 2000/5000 Grit",
+      "description": "",
+      "price": ,
+      "category": 3,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 11,
-      "model": "stock.product",
-      "fields": {
-        "sku": "79Z81VQ8XAZ5",
-        "name": "Whetstone 400/1000 Grit",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 11,
+    "model": "stock.product",
+    "fields": {
+      "sku": "79Z81VQ8XAZ5",
+      "name": "Whetstone 400/1000 Grit",
+      "description": "",
+      "price": ,
+      "category": 3,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 12,
-      "model": "stock.product",
-      "fields": {
-        "sku": "TBU8JUFCTODI",
-        "name": "Fish Knife 5\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 12,
+    "model": "stock.product",
+    "fields": {
+      "sku": "TBU8JUFCTODI",
+      "name": "Fish Knife 5\"",
+      "description": "",
+      "price": ,
+      "category": 6,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 13,
-      "model": "stock.product",
-      "fields": {
-        "sku": "H4D2CO13VS0Q",
-        "name": "Hunting Knife 5\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 13,
+    "model": "stock.product",
+    "fields": {
+      "sku": "H4D2CO13VS0Q",
+      "name": "Hunting Knife 5\"",
+      "description": "",
+      "price": ,
+      "category": 2,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 14,
-      "model": "stock.product",
-      "fields": {
-        "sku": "T5H0Y7I1KMQ6",
-        "name": "Machete 13\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 14,
+    "model": "stock.product",
+    "fields": {
+      "sku": "T5H0Y7I1KMQ6",
+      "name": "Machete 13\"",
+      "description": "",
+      "price": ,
+      "category": 2,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 15,
-      "model": "stock.product",
-      "fields": {
-        "sku": "UEBYHVKOANC8",
-        "name": "Pocket Knife 4\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 15,
+    "model": "stock.product",
+    "fields": {
+      "sku": "UEBYHVKOANC8",
+      "name": "Pocket Knife 4\"",
+      "description": "",
+      "price": ,
+      "category": 7,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 16,
-      "model": "stock.product",
-      "fields": {
-        "sku": "EJ7FQXL8P8MB",
-        "name": "Foraging Knife 3\"",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 16,
+    "model": "stock.product",
+    "fields": {
+      "sku": "EJ7FQXL8P8MB",
+      "name": "Foraging Knife 3\"",
+      "description": "",
+      "price": ,
+      "category": 2,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 17,
-      "model": "stock.product",
-      "fields": {
-        "sku": "IWGVVAXQXO3O",
-        "name": "Throwing Knives",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 17,
+    "model": "stock.product",
+    "fields": {
+      "sku": "IWGVVAXQXO3O",
+      "name": "Throwing Knives",
+      "description": "",
+      "price": ,
+      "category": 8,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 18,
-      "model": "stock.product",
-      "fields": {
-        "sku": "QFNOZ95S4PBM",
-        "name": "Viking Axe 7\" Blade",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 18,
+    "model": "stock.product",
+    "fields": {
+      "sku": "QFNOZ95S4PBM",
+      "name": "Viking Axe 7\" Blade",
+      "description": "",
+      "price": ,
+      "category": 2,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 19,
-      "model": "stock.product",
-      "fields": {
-        "sku": "NTYWZJM3JDLY",
-        "name": "Frying Pan 24cm",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 19,
+    "model": "stock.product",
+    "fields": {
+      "sku": "NTYWZJM3JDLY",
+      "name": "Frying Pan 24cm",
+      "description": "",
+      "price": ,
+      "category": 8,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 20,
-      "model": "stock.product",
-      "fields": {
-        "sku": "L0RKN6LH3893",
-        "name": "Frying Pan 28cm",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 20,
+    "model": "stock.product",
+    "fields": {
+      "sku": "L0RKN6LH3893",
+      "name": "Frying Pan 28cm",
+      "description": "",
+      "price": ,
+      "category": 4,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 21,
-      "model": "stock.product",
-      "fields": {
-        "sku": "PRF5K1ATQSWT",
-        "name": "Saucepan 20cm",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 21,
+    "model": "stock.product",
+    "fields": {
+      "sku": "PRF5K1ATQSWT",
+      "name": "Saucepan 20cm",
+      "description": "",
+      "price": ,
+      "category": 4,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 22,
-      "model": "stock.product",
-      "fields": {
-        "sku": "FL8GYYV3LP6E",
-        "name": "Saute Pan 30cm",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 22,
+    "model": "stock.product",
+    "fields": {
+      "sku": "FL8GYYV3LP6E",
+      "name": "Saute Pan 30cm",
+      "description": "",
+      "price": ,
+      "category": 4,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 23,
-      "model": "stock.product",
-      "fields": {
-        "sku": "YCKUAJX9XHGQ",
-        "name": "Wok 35cm",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 23,
+    "model": "stock.product",
+    "fields": {
+      "sku": "YCKUAJX9XHGQ",
+      "name": "Wok 35cm",
+      "description": "",
+      "price": ,
+      "category": 7,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 24,
-      "model": "stock.product",
-      "fields": {
-        "sku": "2L3WX2H6CSV1",
-        "name": "Wood Balm",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 24,
+    "model": "stock.product",
+    "fields": {
+      "sku": "2L3WX2H6CSV1",
+      "name": "Wood Balm",
+      "description": "",
+      "price": ,
+      "category": 6,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 25,
-      "model": "stock.product",
-      "fields": {
-        "sku": "2CAWATVGEA7J",
-        "name": "Cheese Board",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 25,
+    "model": "stock.product",
+    "fields": {
+      "sku": "2CAWATVGEA7J",
+      "name": "Cheese Board",
+      "description": "",
+      "price": ,
+      "category": 7,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 26,
-      "model": "stock.product",
-      "fields": {
-        "sku": "T3D1SU6835SI",
-        "name": "Walnut Chopping Board 40cm",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 26,
+    "model": "stock.product",
+    "fields": {
+      "sku": "T3D1SU6835SI",
+      "name": "Walnut Chopping Board 40cm",
+      "description": "",
+      "price": ,
+      "category": 5,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    {
-      "pk": 27,
-      "model": "stock.product",
-      "fields": {
-        "sku": "EICPRW94AFW7",
-        "name": "Endgrain Cutting Board 50cm",
-        "description": "",
-        "price": ,
-        "category": ,
-        "rating": ,
-        "image_url": "",
-        "image": ""
-      }
+  },
+  {
+    "pk": 27,
+    "model": "stock.product",
+    "fields": {
+      "sku": "EICPRW94AFW7",
+      "name": "Endgrain Cutting Board 50cm",
+      "description": "",
+      "price": ,
+      "category": 5,
+      "rating": ,
+      "image_url": "",
+      "image": ""
     }
-    
+  }
 ]
