@@ -5,11 +5,11 @@
       "sku": "T7TQN1VXWHYG",
       "name": "Boning Knife 5\"",
       "description": "",
-      "price": ,
+      "price": 150.00,
       "category": 1,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
-      "image": ""
+      "image": "boning5.jpg"
     }
   },
   {
@@ -19,9 +19,9 @@
       "sku": "PB0Y40XTR1I8",
       "name": "Chef's knife 6\"",
       "description": "",
-      "price": ,
+      "price": 150.00,
       "category": 6,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -33,9 +33,9 @@
       "sku": "RXS8R49XUTYL",
       "name": "Chef's knife 8\"",
       "description": "",
-      "price": ,
+      "price": 190.00,
       "category": 1,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -47,9 +47,9 @@
       "sku": "WZH44YU8VUD3",
       "name": "Chef's Knife 10\"",
       "description": "",
-      "price": ,
+      "price": 230.00,
       "category": 1,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -61,9 +61,9 @@
       "sku": "QGFD2L8ILHH9",
       "name": "Cleaver 8\"",
       "description": "",
-      "price": ,
+      "price": 200.00,
       "category": 1,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -75,9 +75,9 @@
       "sku": "IKDYD56YXBS5",
       "name": "Peeling Knife 3\"",
       "description": "",
-      "price": ,
+      "price": 99.00,
       "category": 1,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -89,9 +89,9 @@
       "sku": "ZGP185S3PB00",
       "name": "Knife Block",
       "description": "",
-      "price": ,
+      "price": 60.00,
       "category": 7,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -103,9 +103,9 @@
       "sku": "04E27PXO2AAN",
       "name": "Magnetic Knife Holder 18\"",
       "description": "",
-      "price": ,
+      "price": 40.00,
       "category": 6,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -117,9 +117,9 @@
       "sku": "UZKF3QVVZ9OP",
       "name": "Knife Sharpener",
       "description": "",
-      "price": ,
+      "price": 20.00,
       "category": 3,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -131,9 +131,9 @@
       "sku": "C84FKO155LNS",
       "name": "Whetstone 2000/5000 Grit",
       "description": "",
-      "price": ,
+      "price": 32.00,
       "category": 3,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -145,9 +145,9 @@
       "sku": "79Z81VQ8XAZ5",
       "name": "Whetstone 400/1000 Grit",
       "description": "",
-      "price": ,
+      "price": 27.00,
       "category": 3,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -159,9 +159,9 @@
       "sku": "TBU8JUFCTODI",
       "name": "Fish Knife 5\"",
       "description": "",
-      "price": ,
+      "price": 130.00,
       "category": 6,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -173,9 +173,9 @@
       "sku": "H4D2CO13VS0Q",
       "name": "Hunting Knife 5\"",
       "description": "",
-      "price": ,
+      "price": 140.00,
       "category": 2,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -187,9 +187,9 @@
       "sku": "T5H0Y7I1KMQ6",
       "name": "Machete 13\"",
       "description": "",
-      "price": ,
+      "price": 300.00,
       "category": 2,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -201,9 +201,9 @@
       "sku": "UEBYHVKOANC8",
       "name": "Pocket Knife 4\"",
       "description": "",
-      "price": ,
+      "price": 75.00,
       "category": 7,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -215,9 +215,9 @@
       "sku": "EJ7FQXL8P8MB",
       "name": "Foraging Knife 3\"",
       "description": "",
-      "price": ,
+      "price": 90.00,
       "category": 2,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -229,9 +229,9 @@
       "sku": "IWGVVAXQXO3O",
       "name": "Throwing Knives",
       "description": "",
-      "price": ,
+      "price": 55.00,
       "category": 8,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -243,9 +243,9 @@
       "sku": "QFNOZ95S4PBM",
       "name": "Viking Axe 7\" Blade",
       "description": "",
-      "price": ,
+      "price": 390.00,
       "category": 2,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -257,9 +257,9 @@
       "sku": "NTYWZJM3JDLY",
       "name": "Frying Pan 24cm",
       "description": "",
-      "price": ,
+      "price": 120.00,
       "category": 8,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -271,9 +271,9 @@
       "sku": "L0RKN6LH3893",
       "name": "Frying Pan 28cm",
       "description": "",
-      "price": ,
+      "price": 160.00,
       "category": 4,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -285,9 +285,9 @@
       "sku": "PRF5K1ATQSWT",
       "name": "Saucepan 20cm",
       "description": "",
-      "price": ,
+      "price": 115.00,
       "category": 4,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -299,9 +299,9 @@
       "sku": "FL8GYYV3LP6E",
       "name": "Saute Pan 30cm",
       "description": "",
-      "price": ,
+      "price": 175.00,
       "category": 4,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -313,9 +313,9 @@
       "sku": "YCKUAJX9XHGQ",
       "name": "Wok 35cm",
       "description": "",
-      "price": ,
+      "price": 99.00,
       "category": 7,
-      "rating": ,
+      "brand": 1,
       "image_url": "",
       "image": ""
     }
@@ -327,9 +327,9 @@
       "sku": "2L3WX2H6CSV1",
       "name": "Wood Balm",
       "description": "",
-      "price": ,
+      "price": 30.00,
       "category": 6,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -341,9 +341,9 @@
       "sku": "2CAWATVGEA7J",
       "name": "Cheese Board",
       "description": "",
-      "price": ,
+      "price": 45.00,
       "category": 7,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -355,9 +355,9 @@
       "sku": "T3D1SU6835SI",
       "name": "Walnut Chopping Board 40cm",
       "description": "",
-      "price": ,
+      "price": 105.00,
       "category": 5,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }
@@ -369,9 +369,9 @@
       "sku": "EICPRW94AFW7",
       "name": "Endgrain Cutting Board 50cm",
       "description": "",
-      "price": ,
+      "price": 135.00,
       "category": 5,
-      "rating": ,
+      "brand": 2,
       "image_url": "",
       "image": ""
     }

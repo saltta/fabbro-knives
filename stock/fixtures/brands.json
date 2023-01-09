@@ -1,0 +1,19 @@
+[{
+        "pk": 1,
+        "model": "stock.brand",
+        "fields": {
+            "name": "Colfab",
+            "description": "Leading manufacturer of kitchen knives and pans. An exclusive brand that caters to caterers.",
+            "location": "Bulgaria"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "stock.brand",
+        "fields": {
+            "name": "Cacccia",
+            "description": "High class handmande craft blades and wood work. Perfect for the people who enjoy nature and the outdoors with reliability and style.",
+            "location": "Italy"
+        }
+    }
+]
