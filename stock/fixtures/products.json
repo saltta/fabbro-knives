@@ -6,7 +6,7 @@
       "name": "Boning Knife 5\"",
       "description": "",
       "price": 150.00,
-      "category": 1,
+      "category": [1],
       "brand": 1,
       "image_url": "",
       "image": "kitchen/boning5.jpg"
@@ -20,7 +20,7 @@
       "name": "Chef's knife 6\"",
       "description": "",
       "price": 150.00,
-      "category": 6,
+      "category": [6],
       "brand": 1,
       "image_url": "",
       "image": "kitchen/chefknife6.jpg"
@@ -34,7 +34,7 @@
       "name": "Chef's knife 8\"",
       "description": "",
       "price": 190.00,
-      "category": 1,
+      "category": [1],
       "brand": 1,
       "image_url": "",
       "image": "kitchen/chefknife8.jpg"
@@ -48,7 +48,7 @@
       "name": "Chef's Knife 10\"",
       "description": "",
       "price": 230.00,
-      "category": 1,
+      "category": [1],
       "brand": 1,
       "image_url": "",
       "image": "kitchen/chefknife10.jpg"
@@ -62,7 +62,7 @@
       "name": "Cleaver 8\"",
       "description": "",
       "price": 200.00,
-      "category": 1,
+      "category": [1],
       "brand": 1,
       "image_url": "",
       "image": "kitchen/cleaver8.jpg"
@@ -76,7 +76,7 @@
       "name": "Peeling Knife 3\"",
       "description": "",
       "price": 99.00,
-      "category": 1,
+      "category": [1],
       "brand": 1,
       "image_url": "",
       "image": "kitchen/peel3.jpg"
@@ -90,7 +90,7 @@
       "name": "Knife Block",
       "description": "",
       "price": 60.00,
-      "category": 7,
+      "category": [7],
       "brand": 1,
       "image_url": "",
       "image": "maintenance/knifeblock.jpg"
@@ -104,7 +104,7 @@
       "name": "Magnetic Knife Holder 18\"",
       "description": "",
       "price": 40.00,
-      "category": 6,
+      "category": [6],
       "brand": 1,
       "image_url": "",
       "image": "maintenance/magnet18.jpg"
@@ -118,7 +118,7 @@
       "name": "Knife Sharpener",
       "description": "",
       "price": 20.00,
-      "category": 3,
+      "category": [3],
       "brand": 1,
       "image_url": "",
       "image": "maintenance/sharpener.jpg"
@@ -132,7 +132,7 @@
       "name": "Whetstone 2000/5000 Grit",
       "description": "",
       "price": 32.00,
-      "category": 3,
+      "category": [3],
       "brand": 2,
       "image_url": "",
       "image": "maintenance/whetstone2k5k.jpg"
@@ -146,7 +146,7 @@
       "name": "Whetstone 400/1000 Grit",
       "description": "",
       "price": 27.00,
-      "category": 3,
+      "category": [3],
       "brand": 2,
       "image_url": "",
       "image": "maintenance/whetstone4001k.jpg"
@@ -160,7 +160,7 @@
       "name": "Fish Knife 5\"",
       "description": "",
       "price": 130.00,
-      "category": 6,
+      "category": [6],
       "brand": 2,
       "image_url": "",
       "image": "outdoor/fish5.jpg"
@@ -174,7 +174,7 @@
       "name": "Hunting Knife 5\"",
       "description": "",
       "price": 140.00,
-      "category": 2,
+      "category": [2],
       "brand": 2,
       "image_url": "",
       "image": "outdoor/hunt5.jpg"
@@ -188,7 +188,7 @@
       "name": "Machete 13\"",
       "description": "",
       "price": 300.00,
-      "category": 2,
+      "category": [2],
       "brand": 2,
       "image_url": "",
       "image": "outdoor/machete13.jpg"
@@ -202,7 +202,7 @@
       "name": "Pocket Knife 4\"",
       "description": "",
       "price": 75.00,
-      "category": 7,
+      "category": [7],
       "brand": 2,
       "image_url": "",
       "image": "outdoor/pocket4.jpg"
@@ -216,7 +216,7 @@
       "name": "Foraging Knife 3\"",
       "description": "",
       "price": 90.00,
-      "category": 2,
+      "category": [2],
       "brand": 2,
       "image_url": "",
       "image": "outdoor/scavenge3.jpg"
@@ -230,7 +230,7 @@
       "name": "Throwing Knives",
       "description": "",
       "price": 55.00,
-      "category": 8,
+      "category": [8],
       "brand": 2,
       "image_url": "",
       "image": "outdoor/throw.jpg"
@@ -244,7 +244,7 @@
       "name": "Viking Axe 7\" Blade",
       "description": "",
       "price": 390.00,
-      "category": 2,
+      "category": [2],
       "brand": 2,
       "image_url": "",
       "image": "outdoor/vikingaxe7.jpg"
@@ -258,7 +258,7 @@
       "name": "Frying Pan 24cm",
       "description": "",
       "price": 120.00,
-      "category": 8,
+      "category": [8],
       "brand": 1,
       "image_url": "",
       "image": "pans/frying24.jpg"
@@ -272,7 +272,7 @@
       "name": "Frying Pan 28cm",
       "description": "",
       "price": 160.00,
-      "category": 4,
+      "category": [4],
       "brand": 1,
       "image_url": "",
       "image": "pans/frying28.jpg"
@@ -286,7 +286,7 @@
       "name": "Saucepan 20cm",
       "description": "",
       "price": 115.00,
-      "category": 4,
+      "category": [4],
       "brand": 1,
       "image_url": "",
       "image": "pans/saucepan20.jpg"
@@ -300,7 +300,7 @@
       "name": "Saute Pan 30cm",
       "description": "",
       "price": 175.00,
-      "category": 4,
+      "category": [4],
       "brand": 1,
       "image_url": "",
       "image": "pans/saute30.jpg"
@@ -314,7 +314,7 @@
       "name": "Wok 35cm",
       "description": "",
       "price": 99.00,
-      "category": 7,
+      "category": [7],
       "brand": 1,
       "image_url": "",
       "image": "pans/wok35.jpg"
@@ -328,7 +328,7 @@
       "name": "Wood Balm",
       "description": "",
       "price": 30.00,
-      "category": 6,
+      "category": [6],
       "brand": 2,
       "image_url": "",
       "image": "cutting boards/balm.png"
@@ -342,7 +342,7 @@
       "name": "Cheese Board",
       "description": "",
       "price": 45.00,
-      "category": 7,
+      "category": [7],
       "brand": 2,
       "image_url": "",
       "image": "cutting boards/cheeseboard.png"
@@ -356,7 +356,7 @@
       "name": "Walnut Chopping Board 40cm",
       "description": "",
       "price": 105.00,
-      "category": 5,
+      "category": [5],
       "brand": 2,
       "image_url": "",
       "image": "cutting boards/chopwalnut40.png"
@@ -370,7 +370,7 @@
       "name": "Endgrain Cutting Board 50cm",
       "description": "",
       "price": 135.00,
-      "category": 5,
+      "category": [5],
       "brand": 2,
       "image_url": "",
       "image": "cutting boards/endgrain50.png"
