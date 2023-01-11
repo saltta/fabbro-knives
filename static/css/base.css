@@ -38,6 +38,19 @@ body {
     color: #B1A18A;
 }
 
+.btn-outline-set {
+    background: #252840;
+    color: #B1A18A !important;
+    border: 1px solid #B1A18A;
+}
+
+.btn-outline-set:hover,
+.btn-outline-set:active,
+.btn-outline-set:focus {
+    background: #B1A18A;
+    color: #252840 !important;
+}
+
 .buy-now-button:hover,
 .buy-now-button:active,
 .buy-now-button:focus,
