@@ -16,7 +16,7 @@
            <div class="col text-center mt-3">
                 <h2 class="logo-font">Products</h2>
                 {% for c in current_categories %}
-                    <a href="{% url 'products' %}?category={{ c.name }}" class="category-badge text-decoration-none">
+                    <a href="{% url 'products' %}?category={{ c.name }}" class="logo-font category-badge text-decoration-none">
                         <span class="p-2 mt-2 badge badge-white text-set rounded-1 border-set bg-set">{{ c.friendly_name }}</span>
                     </a>
                 {% endfor %}
@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 order-md-first">
-                        <p class="text-muted mt-3 text-center text-md-left">
+                        <p class="text-muted mt-3 text-center text-md-left logo-font">
                             {% if search_term or current_categories or current_sorting != 'None_None' %}
                                 <span class="small"><a href="{% url 'products' %}">Products Home</a> | </span>
                             {% endif %}
