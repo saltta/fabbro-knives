@@ -4,7 +4,7 @@
             <a class="logo-font font-weight-bold nav-link text-set mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+            <div class="dropdown-menu border" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
@@ -15,7 +15,7 @@
             <a class="logo-font font-weight-bold nav-link text-set mr-5" href="#" id="blades-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                Blades
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="blades-link">
+            <div class="dropdown-menu border" aria-labelledby="blades-link">
                 <a href="{% url 'products' %}?category=kitchen" class="dropdown-item">Kitchen</a>
                 <a href="{% url 'products' %}?category=outdoor" class="dropdown-item">Outdoor</a>
                 <a href="{% url 'products' %}?category=maintenance" class="dropdown-item">Maintenance</a>
@@ -27,7 +27,7 @@
             <a class="logo-font font-weight-bold nav-link text-set mr-5" href="#" id="kitchenware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Kitchenware
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="kitchenware-link">
+            <div class="dropdown-menu border" aria-labelledby="kitchenware-link">
                 <a href="{% url 'products' %}?category=pans" class="dropdown-item">Pans</a>
                 <a href="{% url 'products' %}?category=cutting_boards" class="dropdown-item">Cutting Boards</a>
                 <a href="{% url 'products' %}?category=pans,cutting_boards" class="dropdown-item">All Kitchenware</a>
@@ -38,7 +38,7 @@
             <a class="logo-font font-weight-bold nav-link text-set" href="#" id="deals-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Deals
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="deals-link">
+            <div class="dropdown-menu border" aria-labelledby="deals-link">
                 <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
                 <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
                 <a href="{% url 'products' %}?category=last_chance" class="dropdown-item">Last Chance</a>
