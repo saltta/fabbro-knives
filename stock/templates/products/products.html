@@ -90,6 +90,14 @@
                                     </p>
                                     {% endfor %}
                                     {% endif %}
+                                    {% if request.user.is_superuser %}
+                                        <p class="text-right">
+                                            <small class="ml-3">
+                                                <a href="{% url 'edit_product' product.id %}">Edit</a> |
+                                                <a href="{% url 'delete_product' product.id %}" class="text-danger">Delete</a>
+                                            </small>
+                                        </p>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
