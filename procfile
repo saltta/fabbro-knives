@@ -1,1 +1,1 @@
-web: gunicorn fabbro.wsgi:application
+web: gunicorn fabbro_knives.wsgi:application
