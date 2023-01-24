@@ -39,16 +39,16 @@ body {
 }
 
 .btn-outline-set {
-    background: #252840;
-    color: #B1A18A !important;
-    border: 1px solid #B1A18A;
+    background: #B1A18A;
+    color: #252840 !important;
+    border: 1px solid #252840;
 }
 
 .btn-outline-set:hover,
 .btn-outline-set:active,
 .btn-outline-set:focus {
-    background: #B1A18A;
-    color: #252840 !important;
+    background: #252840;
+    color: #B1A18A !important;
 }
 
 .buy-now-button:hover,
@@ -224,9 +224,9 @@ input[name='q']::placeholder {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background: #B1A18A;
-    color: #252840!important;
-    border: 1px solid #252840;
+    background: #252840;
+    color: #B1A18A!important;
+    border: 1px solid #B1A18A;
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -238,8 +238,8 @@ input[name='q']::placeholder {
 
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {
-    background: #252840;
-    color: #B1A18A !important;
+    background: #B1A18A;
+    color: #252840 !important;
 }
 
 .allauth-form-inner-content a {
