@@ -76,7 +76,7 @@ def product_info(request, product_id):
 def add_product(request):
     """ Add a product to the shop """
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store administrators have access to this function')
+        messages.error(request, 'Sorry, only store managers can access')
         return redirect(reverse('home'))
 
     if request.method == 'POST':
@@ -102,7 +102,7 @@ def add_product(request):
 def edit_product(request, product_id):
     """ Edit a product in the sshop """
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store administrators have access to this function')
+        messages.error(request, 'Sorry, only store managers can access')
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
@@ -131,10 +131,10 @@ def edit_product(request, product_id):
 def delete_product(request, product_id):
     """ Delete a product from the shop """
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store administrators have access to this function')
+        messages.error(request, 'Sorry, only store managers can access')
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
-    messages.success(request, 'Product deleted')
+    messages.success(request, f'{product.name} has been deleted')
     return redirect(reverse('products'))
