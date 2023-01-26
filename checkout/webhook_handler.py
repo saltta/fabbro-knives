@@ -76,7 +76,6 @@ class StripeWH_Handler:
                 profile.default_street_address2 = shipping_details.address.line2
                 profile.default_county = shipping_details.address.state
                 profile.save()
-                print(shipping_details)
 
         order_exists = False
         attempt = 1
