@@ -18,7 +18,7 @@
             {% for c in current_categories %}
             <a href="{% url 'products' %}?category={{ c.name }}" class="logo-font category-badge text-decoration-none">
                 <span
-                    class="p-2 mt-2 badge badge-white text-set rounded-1 border-set bg-set">{{ c.friendly_name }}</span>
+                    class="p-2 mt-2 badge badge-white text-set rounded border-set bg-set">{{ c.friendly_name }}</span>
             </a>
             {% endfor %}
             <hr class="w-50 mb-1">
@@ -31,7 +31,7 @@
                     class="col-12 cold-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
                     <div class="sort-select-wrapper w-30">
                         <select name="" id="sort-selector"
-                            class="custom-select custom-select-sm rounded-1 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
+                            class="custom-select custom-select-sm rounded border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
                             <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>List by...
                             </option>
                             <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price
