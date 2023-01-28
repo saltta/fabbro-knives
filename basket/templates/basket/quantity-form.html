@@ -2,21 +2,21 @@
     class="form update-form">
     {% csrf_token %}
     <div class="form-group">
-        <div class="input-group">
+        <div class="input-group input-group-{{ item.item_id }}">
             <div class="input-group-prepend">
-                <button class="decrement-qty btn btn-sm btn-set rounded-left"
-                    data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
+                <button class="decrement-qty btn btn-sm btn-set rounded-left decrement-qty_{{ item.item_id }}"
+                    data-item_id="{{ item.item_id }}">
                     <span>
                         <i class="fas fa-minus fa-sm"></i>
                     </span>
                 </button>
             </div>
-            <input type="number" class="form-control form-control-sm qty_input"
+            <input type="number" class="form-control form-control-sm qty_input id_qty_{{ item.item_id }}"
                 name="quantity" value="{{ item.quantity }}" min="1" max="99"
-                data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
+                data-item_id="{{ item.item_id }}">
             <div class="input-group-append">
-                <button class="increment-qty btn btn-sm btn-set rounded-right"
-                    data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
+                <button class="increment-qty btn btn-sm btn-set rounded-right increment-qty_{{ item.item_id }}"
+                    data-item_id="{{ item.item_id }}">
                     <span>
                         <i class="fas fa-plus fa-sm"></i>
                     </span>
