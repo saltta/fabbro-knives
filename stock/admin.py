@@ -3,6 +3,7 @@ from .models import Product, Category, Brand
 
 # Register your models here.
 
+
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'sku',
@@ -14,17 +15,20 @@ class ProductAdmin(admin.ModelAdmin):
 
     ordering = ('category',)
 
+
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name',
         'name',
     )
 
+
 class BrandAdmin(admin.ModelAdmin):
     list_display = (
         'name',
         'location',
     )
+
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)

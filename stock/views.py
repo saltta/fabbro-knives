@@ -8,6 +8,7 @@ from .forms import ProductForm
 
 # Create your views here.
 
+
 def all_products(request):
     """ A view to show all products, also sorting and searching """
 
@@ -44,7 +45,7 @@ def all_products(request):
             if not query:
                 messages.error(request, "You didn't specify your search")
                 return redirect(reverse('products'))
-            
+
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
@@ -86,10 +87,12 @@ def add_product(request):
             messages.success(request, 'Sucessfully added product')
             return redirect(reverse('product_info', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid')
+            messages.error(request,
+                           """Failed to add product. Please ensure the
+                            form is valid""")
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,

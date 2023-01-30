@@ -97,7 +97,7 @@ class StripeWH_Handler:
                 )
                 order_exists = True
                 break
-                
+
             except Order.DoesNotExist:
                 attempt += 1
                 time.sleep(1)
@@ -124,7 +124,7 @@ class StripeWH_Handler:
                     original_basket=basket,
                     stripe_pid=pid,
                 )
-                for item_id, item_data in json.loads(basket).items():                    
+                for item_id, item_data in json.loads(basket).items():
                     product = Product.objects.get(id=item_id)
                     if isinstance(item_data, int):
                         order_line_item = OrderLineItem(
