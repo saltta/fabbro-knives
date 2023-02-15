@@ -154,18 +154,18 @@
 
     {% block page_header %}
     {% endblock %}
-
+    
     {% block content %}
     {% endblock %}
 
-    <footer class="footer mt-auto py-3 bg-set">
+    <footer class="footer mt-4 py-3 bg-set">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <a href="{% url 'subscribe' %}" class="text-set">Subscribe to our newsletter</a>
                     <br>
                     <a href="{% url 'contact' %}" class="text-set">Contact Us</a>
-                    <p class="mb-0">&copy; 2023 Salvatore</p>
+                    <p class="mb-0 small">&copy; 2023 Salvatore</p>
                 </div>
             </div>
         </div>
