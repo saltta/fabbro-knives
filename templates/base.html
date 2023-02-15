@@ -48,7 +48,7 @@
     {% block extra_js %}
     {% endblock %}
 
-    <title>Fabbro Knives {% block extra_title %}{% endblock %}</title>
+    <title>Fabbro Knives | {% block extra_title %}{% endblock %}</title>
 
 </head>
 
@@ -158,12 +158,26 @@
     {% block content %}
     {% endblock %}
 
+    <footer class="footer mt-auto py-3 bg-set">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <a href="{% url 'subscribe' %}" class="text-set">Subscribe to our newsletter</a>
+                    <p class="mb-0">&copy; 2023 Salvatore</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
     {% endblock %}
+    
+    
 
 </body>
+
 
 </html>
