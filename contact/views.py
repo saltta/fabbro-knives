@@ -11,8 +11,8 @@ def contact(request):
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
-            messages.success(request, 'Your message has been sent. We will \
-                get back to you soon.')
+            messages.success(request, 'Your message has been sent! We will \
+                get back to you as soon as possible.')
             return redirect('home')
     else:
         form = ContactForm()
