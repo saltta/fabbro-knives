@@ -11,7 +11,7 @@
         "pk": 2,
         "model": "stock.brand",
         "fields": {
-            "name": "Cacccia",
+            "name": "Caccia",
             "description": "High class handmande craft blades and wood work. Perfect for the people who enjoy nature and the outdoors with reliability and style.",
             "location": "Italy"
         }
