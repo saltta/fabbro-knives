@@ -115,6 +115,24 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+.social-icons {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.social-icons li:last-child {
+    padding-right: 1.5rem;
+}
+
+.social-icons li a i {
+    color: #252840 !important;
+}
+
 /* ----------- TOASTS ----------- */
 
 .message-container {
