@@ -20,7 +20,7 @@
       "name": "Chef's knife 6\"",
       "description": "",
       "price": 150.00,
-      "category": [6],
+      "category": [1, 6],
       "brand": 1,
       "image_url": "",
       "image": "kitchen/chefknife6.jpg"
@@ -90,7 +90,7 @@
       "name": "Knife Block",
       "description": "",
       "price": 60.00,
-      "category": [7],
+      "category": [3, 7],
       "brand": 1,
       "image_url": "",
       "image": "maintenance/knifeblock.jpg"
@@ -104,7 +104,7 @@
       "name": "Magnetic Knife Holder 18\"",
       "description": "",
       "price": 40.00,
-      "category": [6],
+      "category": [3, 6],
       "brand": 1,
       "image_url": "",
       "image": "maintenance/magnet18.jpg"
@@ -160,7 +160,7 @@
       "name": "Fish Knife 5\"",
       "description": "",
       "price": 130.00,
-      "category": [6],
+      "category": [2, 6],
       "brand": 2,
       "image_url": "",
       "image": "outdoor/fish5.jpg"
@@ -202,7 +202,7 @@
       "name": "Pocket Knife 4\"",
       "description": "",
       "price": 75.00,
-      "category": [7],
+      "category": [2, 7],
       "brand": 2,
       "image_url": "",
       "image": "outdoor/pocket4.jpg"
@@ -230,7 +230,7 @@
       "name": "Throwing Knives",
       "description": "",
       "price": 55.00,
-      "category": [8],
+      "category": [2, 8],
       "brand": 2,
       "image_url": "",
       "image": "outdoor/throw.jpg"
@@ -258,7 +258,7 @@
       "name": "Frying Pan 24cm",
       "description": "",
       "price": 120.00,
-      "category": [8],
+      "category": [4, 8],
       "brand": 1,
       "image_url": "",
       "image": "pans/frying24.jpg"
@@ -298,7 +298,7 @@
     "fields": {
       "sku": "FL8GYYV3LP6E",
       "name": "Saute Pan 30cm",
-      "description": "",
+      "description": "a really cool product",
       "price": 175.00,
       "category": [4],
       "brand": 1,
@@ -314,7 +314,7 @@
       "name": "Wok 35cm",
       "description": "",
       "price": 99.00,
-      "category": [7],
+      "category": [4, 7],
       "brand": 1,
       "image_url": "",
       "image": "pans/wok35.jpg"
@@ -328,7 +328,7 @@
       "name": "Wood Balm",
       "description": "",
       "price": 30.00,
-      "category": [6],
+      "category": [5, 6],
       "brand": 2,
       "image_url": "",
       "image": "cutting boards/balm.png"
@@ -342,7 +342,7 @@
       "name": "Cheese Board",
       "description": "",
       "price": 45.00,
-      "category": [7],
+      "category": [5, 7],
       "brand": 2,
       "image_url": "",
       "image": "cutting boards/cheeseboard.png"
