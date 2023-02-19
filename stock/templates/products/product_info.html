@@ -41,8 +41,10 @@
                     {% endif %}
                     {% if product.brand %}
                         <p class="small mt-q mb-0">
-                           Made by 
+                           Made in {{ product.brand.location }} by 
                             <img src="{{ product.brand.image.url }}" alt="{{ product.brand.name }}" class="card-img-top img-fluid w-25">
+                            <br>
+                            {{ product.brand.description }}
                         </p>
                     {% endif %}
                     {% if request.user.is_superuser %}

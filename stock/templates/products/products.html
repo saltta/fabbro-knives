@@ -94,6 +94,7 @@
                                     </p>
                                     {% endfor %}
                                     {% endif %}
+                                    <img src="{{ product.brand.image.url }}" alt="{{ product.brand.name }}" class="card-img-top img-fluid w-25">
                                     {% if request.user.is_superuser %}
                                         <p class="text-right">
                                             <small class="ml-3">
