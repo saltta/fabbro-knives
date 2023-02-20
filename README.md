@@ -263,71 +263,71 @@ The images should represent the products. Since this is only an educational proj
 
 ### Navigation
 
-The nav bar allows users to search for products, sort them by categories, login/logout, view profile, register and view basket.
+**The nav bar allows users to search for products, sort them by categories, login/logout, view profile, register and view basket.**
 
 ![Navbar desktop](./media/readme/features/navbar.jpg)
 
 ![Navbar mobile](./media/readme/features/mobilenavbar.jpg)
 
-The footer allows users to Subscribe, Contact te store or follow the links to the store's social media.
+**The footer allows users to Subscribe, Contact te store or follow the links to the store's social media.**
 
 ![Footer](./media/readme/features/footer.jpg)
 
-Users can contact the store for more information
+**Users can contact the store for more information**
 
 ![Contact form](./media/readme/features/contact.jpg)
 
-Users can subscribe to the store's newsletter
+**Users can subscribe to the store's newsletter**
 
 ![Newsletter form](./media/readme/features/newsletter.jpg)
 
-Users can view listed products
+**Users can view listed products**
 
 ![Products](./media/readme/features/products.jpg)
 
-Users can view individual product info
+**Users can view individual product info**
 
 ![Product info](./media/readme/features/productinfo.jpg)
 
-Users can sign up
+**Users can sign up**
 
 ![Sign up](./media/readme/features/signup.jpg)
 
-Users can sign in
+**Users can sign in**
 
 ![Sign in](./media/readme/features/signin.jpg)
 
-Users can see the contents of their basket when they add a product
+**Users can see the contents of their basket when they add a product**
 
 ![Toast basket](./media/readme/features/toastbasket.jpg)
 
 ![Basket](./media/readme/features/basket.jpg)
 
-Users get confirmation through messages in the upper right corner
+**Users get confirmation through messages in the upper right corner**
 
 ![Toast success](./media/readme/features/toastsuccess.jpg)
 
-Users can checkout
+**Users can checkout**
 
 ![Checkout](./media/readme/features/checkout.jpg)
 
-Users get an order confirmation when completing a purchase
+**Users get an order confirmation when completing a purchase**
 
 ![Order confirmation](./media/readme/features/orderconfirmation.jpg)
 
-Users can see their details and completed orders on their profiel page
+**Users can see their details and completed orders on their profiel page**
 
 ![Profile](./media/readme/features/profile.jpg)
 
-Admin can edit and delete products
+**Admin can edit and delete products**
 
 ![Edit delete](./media/readme/features/delete.jpg)
 
-Admin can add products
+**Admin can add products**
 
 ![Add product](./media/readme/features/add.jpg)
 
-Custom 404 page
+**Custom 404 page**
 
 ![404](./media/readme/features/404.jpg)
 
@@ -449,3 +449,10 @@ On the products list or on the product's individual page, the admin has unique o
 
 In the footer of the website, visible from every page, there is a link to a newsletter form where any one can click on and subscribe to newsletter. The emails get registered in the database
 
+Exhaustive tests were also executed to try and find errors or missing links, the custom 404 page was able to catch attempts to access non-existing urls.
+
+The Contact Us link in the footer works as intended and sends the user to a page with a Contact form in which they may leave their message, name and email. This is registered correctly in the database.
+
+Both the newsletter and contact form were made by custom models.
+
+Links to social media which are found in the footer work as intended and open a new tab for each one.
