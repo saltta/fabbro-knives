@@ -259,4 +259,64 @@ The colour choice was based on a more elegant approach by using darker tones con
 
 The images should represent the products. Since this is only an educational project and not a real store, they were sourced from actual sellers credited at the end of this Readme.
 
+## Features
+
+### Navigation
+
+The nav bar allows users to search for products, sort them by categories, login/logout, view profile, register and view basket.
+
+![Navbar desktop](./media/readme/features/navbar.jpg)
+
+![Navbar mobile](./media/readme/features/mobilenavbar.jpg)
+
+The footer allows users to Subscribe, Contact te store or follow the links to the store's social media.
+
+![Footer](./media/readme/features/footer.jpg)
+
+Users can contact the store for more information
+
+![Contact form](./media/readme/features/contact.jpg)
+
+Users can subscribe to the store's newsletter
+
+![Newsletter form](./media/readme/features/newsletter.jpg)
+
+Users can view listed products
+
+![Products](./media/readme/features/products.jpg)
+
+Users can view individual product info
+
+![Product info](./media/readme/features/productinfo.jpg)
+
+Users can sign up
+
+![Sign up](./media/readme/features/signup.jpg)
+
+Users can sign in
+
+![Sign in](./media/readme/features/signin.jpg)
+
+Users can see the contents of their basket when they add a product
+
+![Toast basket](./media/readme/features/toastbasket.jpg)
+
+![Basket](./media/readme/features/basket.jpg)
+
+Users get confirmation through messages in the upper right corner
+
+![Toast success](./media/readme/features/toastsuccess.jpg)
+
+Users can checkout
+
+![Checkout](./media/readme/features/checkout.jpg)
+
+Users get an order confirmation when completing a purchase
+
+![Order confirmation](./media/readme/features/orderconfirmation.jpg)
+
+Users can see their details and completed orders on their profiel page
+
+![Profile](./media/readme/features/profile.jpg)
+
 
