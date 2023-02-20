@@ -116,7 +116,7 @@ I used Github Projects with Agile methodology
 - As a superuser, I want to be able to delete products so that I can adjust the store according to available stock.
 - As a superuser, I want to be able to send newsletters so that I can inform our subscribers of new products and offers.
 
-### Features
+### Main Features
 
 - Responsive Design - easy to access and view on multiple devices
 - User Interaction - users can add products to their basket and adjust quantity
