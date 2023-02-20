@@ -47,7 +47,7 @@ The target audience consists of cooking enthusiasts, professional chefs, and any
 
 Our e-commerce store offers a wide range of products, including:
 
-- Knives: Chef's knives, hunting knives, vleavers, and more.
+- Knives: Chef's knives, hunting knives, cleavers, and more.
 - Pans: Saucepans, stainless steel, non-stick, and more.
 - Cutting boards: High quality handmade wood boards and maintenance balm.
 - Sharpeners: Compact sharpener and whetstones.
@@ -210,4 +210,37 @@ Made with drawSQL:
 * Admin can send out news and offers to users that have subscribed
 
 
+## Skeleton
+
+**Wireframes**
+
+Home page - where the user should find a navbar and footer.
+
+![Main wireframe desktop](./media/readme/wireframes/home.png)
+
+![Main wireframe mobile](./media/readme/wireframes/mobilehome.png)
+
+Products - where the user can see listed products
+
+![Products desktop](./media/readme/wireframes/products.png)
+
+![Products mobile](./media/readme/wireframes/mobileproducts.png)
+
+Basket - where added products are stored for purchase
+
+![Basket desktop](./media/readme/wireframes/basket.png)
+
+![Basket mobile](./media/readme/wireframes/mobilebasket.png)
+
+Profile - where personal info and previews orders can be seen
+
+![Profile desktop](./media/readme/wireframes/profile.png)
+
+![Profile mobile](./media/readme/wireframes/mobileprofile.png)
+
+Checkout - where users can complete their purchase
+
+![Checkout desktop](./media/readme/wireframes/checkout.png)
+
+![Checkout mobile](./media/readme/wireframes/mobilecheckout.png)
 
