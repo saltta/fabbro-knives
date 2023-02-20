@@ -327,5 +327,42 @@ Admin can add products
 
 ![Add product](./media/readme/features/add.jpg)
 
+Custom 404 page
 
+![404](./media/readme/features/404.jpg)
 
+## Testing
+
+### Validators
+
+This html validation via [W3C HTML Validator](https://validator.w3.org/) was done on all html pages and returned the same result.
+
+![html](./media/readme/test/mainvalid.jpg)
+
+The CSS validation was done via [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and returned positive results.
+
+![CSS](./media/readme/test/cssvalid.jpg)
+
+The JavaScript validation was done by copying all of the js used in the project into [jshint](https://jshint.com/), all at once, and came back positive.
+
+![JavaScript](./media/readme/test/jsvalid.jpg)
+
+**Lighthouse tests** 
+
+Home on the desktop
+
+![Lighthouse home desktop](./media/readme/test/lhdesktop.jpg)
+
+Home on mobile
+
+![Lighthouse home mobile](./media/readme/test/lhmobile.jpg)
+
+Product info on desktop
+
+![Product info desktop](./media/readme/test/lhprodinfodesk.jpg)
+
+Product info on mobile
+
+![Product info mobile](./media/readme/test/lhprodinfomobile.jpg)
+
+Lighthouse on other pages yielded similar results, for the future I would need to consider using a next-gen image format and a more uniform pattern for sizing the images in order to improve Lighthouse scores.
