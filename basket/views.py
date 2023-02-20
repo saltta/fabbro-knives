@@ -19,6 +19,11 @@ def add_to_basket(request, item_id):
     redirect_url = request.POST.get('redirect_url')
     basket = request.session.get('basket', {})
 
+    # Perform server-side validation
+    if not 1 <= quantity <= 10:
+        messages.error(request, f'Quantity must be between 1 and 10.')
+        return redirect(redirect_url)
+
     if item_id in list(basket.keys()):
         basket[item_id] += quantity
         messages.success(request, f'Updated {product.name} quantity to {basket[item_id]}', extra_tags='basket')
@@ -36,6 +41,11 @@ def adjust_basket(request, item_id):
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     basket = request.session.get('basket', {})
+
+    # Perform server-side validation
+    if not 1 <= quantity <= 10:
+        messages.error(request, f'Quantity must be between 1 and 10.')
+        return redirect(reverse('view_basket'))
 
     if quantity > 0:
         basket[item_id] = quantity
