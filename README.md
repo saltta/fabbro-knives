@@ -72,4 +72,32 @@ We use a variety of marketing strategies to promote our e-commerce store and pro
 
 Thank you for considering Fabbro Knives for your kitchen product needs. We are committed to providing the best products and shopping experience for our customers, and we hope that you will enjoy shopping with us. If you have any questions or feedback, please don't hesitate to contact us.
 
+## Scope
+
+### User Expectations
+
+- As a user I expect the app to be accessible.
+- As a user I expect my data to be secure.
+- As a user I expect the app to be responsive.
+
+### User Stories
+
+- As a shopper, I want to be able to view a list of products so that I can select some to purchase.
+- As a shopper, I want to be able to view a list of products so that I can select some to purchase.
+- As a shopper, I want to be able to see deals and offers so that I can save on products I want to purchase.
+- As a shopper, I want to be able to view total of my purchase at any time so that I can avoid spending too much.
+- As a shopper, I want to be able to sort the list of products so that I can identify products by different types of sorting.
+- As a shopper, I want to be able to sort a specific category of products so that I can find best-priced/rated product in a specific category or sort them by name.
+- As a shopper, I want to be able to search a product by name or description so that I can find a specific product.
+- As a shopper, I want to be able to see what I've searched so that I can decide whether the product I want is available.
+- As a shopper, I want to be able to select the quantity of a product when purchasing it so that I can ensure I don't accidentally select the wrong product quantity.
+- As a user, I want to be able to register for an account so that I can have a personal profile.
+- As a user, I want to be able to login or logout so that I can access my personal account.
+- As a user, I want to be able to recover my password in case I forget it so that I can recover access to my account.
+- As a user, I want to be able to receive an email confirming registration so that I can verify my registration was successful.
+- As a user, I want to be able to have a user profile so that I can view my order history and confirmations, and save payment info.
+- As a superuser, I want to be able to add new products so that I can offer new products to sell.
+- As a superuser, I want to be able to delete products so that I can adjust the store according to available stock.
+- As a superuser, I want to be able to send newsletters so that I can inform our subscribers of new products and offers.
+
 
