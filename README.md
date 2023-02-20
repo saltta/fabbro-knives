@@ -492,3 +492,297 @@ This was fixed with a new if statement in the html that displays messages and ad
 This was fixed by modifying the views in the basket app to perform server side validation.
 
 ![exploit fix](./media/readme/bugs/exploitfix.jpg)
+
+## Technologies Used
+
+- Gitpod
+- Github
+- Heroku
+- ElephantSQL
+- Stripe
+- AWS
+
+### Languages
+
+- HTML5
+- CSS3
+- Python
+- JavaScript
+
+### Libraries / Frameworks
+
+- Django
+- Bootstrap
+- FontAwesome
+
+### Resources
+
+- Code Institute walkthrough
+- [Django documentation](https://www.djangoproject.com/)
+- [W3Schools](https://www.w3schools.com/)
+- [Bootstrap documentation](https://getbootstrap.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+- Articles
+
+## Deployment
+
+### Developing
+
+1. Create a new repository on GitHub using Code Institute's [Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
+1. Open the repository you just created and from there you can:
+    * Create a workspace by prefixing any GitHub URL with gitpod.io/#, or
+    * By using Gitpod browser extension, it adds a button to GitHub.
+1. Through Gitpod you will push your commits straight to GitHub.
+
+### Deployment to heroku
+
+**In your app** 
+
+1. add the list of requirements by writing in the terminal "pip3 freeze --local > requirements.txt"
+2. Git add and git commit the changes made
+
+**Log into heroku**
+
+3. Log into [Heroku](https://dashboard.heroku.com/apps) or create a new account and log in
+
+4. top right-hand corner click "New" and choose the option Create new app, if you are a new user, the "Create new app" button will appear in the middle of the screen
+
+5. Write app name - it has to be unique, it cannot be the same as this app
+6. Choose Region - I am in Europe
+7. Click "Create App"
+
+**The page of your project opens.**
+
+8. Go to Resources Tab, Add-ons, search and add Heroku Postgres
+
+9. Choose "settings" from the menu on the top of the page
+
+10. Go to section "Config Vars" and click button "Reveal Config Vars". 
+
+11. Add the below variables to the list
+
+    * Database URL from  ElephantSQL will be added manually.  
+    * Secret_key - use a free key generator online.
+
+
+**Go back to code**
+
+12. Procfile needs to be created in your app
+```
+web: gunicorn <PROJECT_NAME>.wsgi:application
+```
+
+13. In settings in your app add Heroku to ALLOWED_HOSTS
+
+14. Add and commit the changes in your code and push to github
+
+**Final step - deployment**
+
+15. Next go to "Deploy" in the menu bar on the top 
+
+16. Go to section "deployment method", choose "GitHub"
+
+17. New section will appear "Connect to GitHub" - Search for the repository to connect to
+
+18. type the name of your repository and click "search"
+
+19. once Heroku finds your repository - click "connect"
+
+20. Scroll down to the section "Memual Deploys"
+
+21. Click choose "Deploy branch" and manually deploy
+
+22. Click "Deploy branch"
+
+Once the program runs:
+you should see the message "the app was sussesfully deployed"
+
+23. Click the button "View"
+
+The live link can be found [here](https://fabbro.herokuapp.com/)
+
+### Setting up your local enviroment
+
+1. Create Virtual enviroment on your computer or use gitpod built in virtual enviroment feature.
+
+2. Create env.py file.
+
+* Database URL can be obtained from [heroku](https://dashboard.heroku.com/), add ElephantSQL as an add on when creating an app. 
+* Secret_key - Can be generated via free key generator online.
+
+```
+DEVELOPMENT
+SECRET_KEY
+
+STRIPE_PUBLIC_KEY
+STRIPE_SECRET_KEY 
+STRIPE_WH_SECRET
+
+```
+ElephantSQL and AWS keys are needed only on Heroku, not in local IDE
+
+3. Run command
+```
+pip3 install -r requirements.txt
+````
+
+### Getting Stripe keys
+
+Go to developers tab. On side menu you will find API keys. Copy STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY.
+
+- Go to Webhooks. Click Add Endpoint button in top right hand corner.
+- Add endpoint URL (your local or deployed URL)
+- Add all events 
+- Click add endpoint
+
+You should be redirected to this webhook's page. Reveal webhook sign in secret and copy to Settings and to heroku as STRIPE_WH_SECRET variable
+
+### Getting email variables from gmail
+
+- Log into gmail account
+- Go to **Settings** and than **See all settings**
+- On the top menu go to Accounts and import
+- Find on the list Other google account settings
+- Left side menu - Security
+- Turn on two step verification: add phone number and follow instructions
+- Go back to security App passwords - Select Mail, Select Device - Other, Django, Copy app password.
+
+In Heroku :
+
+- EMAIL_HOST_PASS is the password copied from above.
+- EMAIL_HOST_USER is the gmail email address.
+
+### Heroku Config Vars
+
+|     Variable name     |                           Value/where to find value                           |
+|:---------------------:|:-----------------------------------------------------------------------------:|
+| AWS_ACCESS_KEY_ID     | AWS CSV file(instructions below)                                               |
+| AWS_SECRET_ACCESS_KEY | AWS CSV file(instructions below)                                               |
+| DATABASE_URL          | Postgres generated from ElephantSQL                                        |
+| EMAIL_HOST_PASS       | Password from email client                                                    |
+| EMAIL_HOST_USER       | Site's email address                                                          |
+| SECRET_KEY            | Random key generated as above                                                 |
+| STRIPE_PUBLIC_KEY     | Stripe Dashboard > Developers tab > API Keys > Publishable key                |
+| STRIPE_SECRET_KEY     | Stripe Dashboard > Developers tab > API Keys > Secret key                     |
+| STRIPE_WH_SECRET      | Stripe Dashboard > Developers tab > Webhooks > site endpoint > Signing secret |
+| USE_AWS               | True (when AWS set up - instructions below)                                   |
+
+### AWS S3 Bucket
+
+- Create an AWS account.
+- From the 'Services' tab on the AWS Management Console, search 'S3' and select it.
+- Click 'Create a new bucket', give it a name(match your Heroku app name if possible), and choose the region closest to you.
+- Under 'Object Ownership' select 'ACLs enabled' and leave the Object Ownership as Bucket owner preferred.
+- Uncheck block all public access and acknowledge that the bucket will be public.
+- Click 'Create bucket'.
+- Open the created bucket, go to the 'Properties' tab. Scroll to the bottom and under 'Static website hosting' click 'edit' and change the Static website hosting option to 'enabled'. Copy the default values for the index and error documents and click 'save changes'.
+- Open the 'Permissions' tab, locate the CORS configuration section and add the following code:
+```
+[
+  {
+      "AllowedHeaders": [
+          "Authorization"
+      ],
+      "AllowedMethods": [
+          "GET"
+      ],
+      "AllowedOrigins": [
+          "*"
+      ],
+      "ExposeHeaders": []
+  }
+]
+```
+- In the 'Bucket Policy' section and select 'Policy Generator'.
+- Choose 'S3 Bucket Policy' from the type dropdown.
+- In 'Step 2: Add Statements', add the following settings:
+    - Effect: Allow
+    - Principal: *
+    - Actions: GetObject
+    - ARN: Bucket ARN (copy from S3 Bucket page)
+- Click 'Add Statement'.
+- Click 'Generate Policy'.
+- Copy the policy from the popup that appears
+- Paste the generated policy into the Permissions > Bucket Policy area.
+- Add '/*' at the end of the 'Resource' key, and save.
+- Go to the 'Access Control List' section click edit and enable List for Everyone (public access) and accept the warning box.
+
+### IAM
+- From the 'Services' menu, search IAM and select it.
+- Once on the IAM page, click 'User Groups' from the side bar, then click 'Create group'. Choose a name and click 'Create'.
+- Go to 'Policies', click 'Create New Policy'. Go to the 'JSON' tab and click 'Import Managed Policy'. 
+- Search 'S3' and select 'AmazonS3FullAccess'. Click 'Import'.
+- Get the bucket ARN from 'S3 Permissions' as per above.
+- Delete the '*' from the 'Resource' key and add the following code into the area:
+
+```
+"Resource": [
+    "YOUR-ARN-NO-HERE",
+    "YOUR-ARN-NO-HERE/*"
+]
+```
+
+- Click 'Next Tags' > 'Next Review' and then provide a name and description and click 'Create Policy'.
+- Click'User Groups' and open the created group. Go to the 'Permissions' tab and click 'Add Permissions' and then 'Attach Policies'.
+- Search for the policy you created and click 'Add Permissions'.
+- You need to create a user to put in the group. Select users from the sidebar and click 'Add user'.
+- Give your user a user name, check 'Programmatic Access'.
+- Click 'Next' and select the group you created.
+- Keep clicking 'Next' until you reach the 'Create user' button and click that.
+- Download the CSV file which contains the AWS_SECRET_ACCESS_KEY and your AWS_ACCESS_KEY_ID needed in the Heroku variables as per above list and also in your env.py.
+
+### Connecting S3 to Django 
+- Go back to your IDE and install 2 more requirements:
+    - `pip3 install boto3`
+    - `pip3 install django-storages` 
+- Update your requirements.txt file by typing `pip3 freeze --local > requirements.txt` and add storages to your installed apps.
+- Create an if statement in settings.py 
+
+```
+if 'USE_AWS' in os.environ:
+    AWS_STORAGE_BUCKET_NAME = 'insert-your-bucket-name-here'
+    AWS_S3_REGION_NAME = 'insert-your-region-here'
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+
+```
+- Then add the line 
+
+    - `AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'` to tell django where our static files will be coming from in production.
+
+
+- Create a file called custom storages and import both our settings from django.con as well as the s3boto3 storage class from django storages. 
+- Create the following classes:
+
+```
+class StaticStorage(S3Boto3Storage):
+    location = settings.STATICFILES_LOCATION
+
+class MediaStorage(S3Boto3Storage):
+    location = settings.MEDIAFILES_LOCATION
+```
+
+- In settings.py add the following inside the if statement:
+
+```
+STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+STATICFILES_LOCATION = 'static'
+DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
+MEDIAFILES_LOCATION = 'media'
+STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
+
+```
+
+- and then add the following at the top of the if statement:
+```
+AWS_S3_OBJECT_PARAMETERS = {
+    'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+    'CacheControl': 'max-age=94608000',
+}
+```
+
+- Go to S3, go to your bucket and click 'Create folder'. Name the folder 'media' and click 'Save'.
+- Inside the folder, click 'Upload', 'Add files', and then select all the images that you are using for your site.
+- Then under 'Permissions' select the option 'Grant public-read access' and click upload.
+- Your static files and media files should be automatically linked from django to your S3 bucket.
