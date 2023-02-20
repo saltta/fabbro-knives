@@ -82,6 +82,10 @@ We use a variety of marketing strategies to promote our e-commerce store and pro
 - Email marketing: We send regular emails to our subscribers to inform them of new products, promotions, and events. We also offer exclusive discounts to our email subscribers to encourage purchases.
 - Paid advertising: We use paid advertising on platforms such as Google Ads and Facebook Ads to target customers who may be interested in our products. We regularly review the performance of our ads to ensure that they are effective.
 
+Facebook page:
+
+![Facebook](./media/readme/facebook.png)
+
 ### Conclusion
 
 Thank you for considering Fabbro Knives for your kitchen product needs. We are committed to providing the best products and shopping experience for our customers, and we hope that you will enjoy shopping with us. If you have any questions or feedback, please don't hesitate to contact us.
