@@ -100,4 +100,114 @@ Thank you for considering Fabbro Knives for your kitchen product needs. We are c
 - As a superuser, I want to be able to delete products so that I can adjust the store according to available stock.
 - As a superuser, I want to be able to send newsletters so that I can inform our subscribers of new products and offers.
 
+### Features
+
+- Responsive Design - easy to access and view on multiple devices
+- User Interaction - users can add products to their basket and adjust quantity
+- Newsletter - any user can subscribe to newsletters
+- Registration - links for the users to register, login and logout
+- Checkout - users can pay securely and complete their purchase
+- Contact - users can contact the store for more information
+
+## Structure
+
+### Pages
+
+- The site contains home page
+- There is a page for all products
+- There are pages for each category
+- There are registration, login and logout pages
+- There is a page for the user profile
+- There is a page for the basket
+- There is a page for checkout
+- There is a page for the contact form
+- There is a page for the newsletter subscription
+
+### Code
+
+- The website was built using Django
+- The website uses templates
+- The website has one main app and multiple others based on functionality
+
+### Database
+
+- The website uses ElephantSQL connected to Heroku
+
+### Database plan
+
+Made with drawSQL:
+
+![Datbase Diagram](./media/readme/database-diagram.png)
+
+**Implementing User Stories**
+
+>1. View list of products
+
+* Clicking on 'Buy Now' on the main page or the links in the nav bar up top can take the user to pages where the products are displayed
+
+>2. Product Details
+
+* Users can click on a product and open up its own individual page with more information and the option to add it to the basket
+
+>3. See offers
+
+* Users can select from the nav bar to view products that are on sale
+
+>4. Basket total
+
+* Users can see their total at any time from any page on the upper right corner of the page
+
+>5. Register account
+
+* Users have the option to register for an account by following the link in the nav bar
+
+>6. Login/Logout
+
+* Users can opt to log back into their accounts or log out of them through links in the nav bar
+
+>7. Recover password
+
+* Users that are registered but have forgotten their password detail may follow a link on the sign in page
+
+>8. Email register confirmation
+
+* Users receive an email confirmation when they register
+
+>9. User profile
+
+* Users that are registered have the option to visit their own profile page where they can update their information and view previous orders
+
+>10. Sort products
+
+* Users can sort products by different specifications such as price or alphabetical order
+
+>11. Category sorting
+
+* Users can follow links on the nav bar to find products of a specific category
+
+>12. Search by name or description
+
+* Users can input their own query into the search in the nav bar and find proucts by their names or description
+
+>13. See search result
+
+* Users can view a list of items that match their search query
+
+>14. Product quantity
+
+* Users can select a specific quantity of the product they wish to buy without having to add one by one
+
+>15. Add new products
+
+* Admin can add new products via the frontend of the webiste by following the link on the nav bar
+
+>16. Remove products
+
+* Admin can choose to remove a product either from the list of products or the product page
+
+>17. Newsletter
+
+* Admin can send out news and offers to users that have subscribed
+
+
 
