@@ -244,3 +244,19 @@ Checkout - where users can complete their purchase
 
 ![Checkout mobile](./media/readme/wireframes/mobilecheckout.png)
 
+
+## Surface
+
+**Design**
+
+The layout of the website is functional and simple to navigate. It minimizes the amount of time the user has to worry about looking for links, the navbar should clearly displayed and accessible. The products should be clearly presented, organized and easy to click to access more details. 
+
+The colour choice was based on a more elegant approach by using darker tones contrasted with white so as to not become too confusing and distracting. The colours are a complement to the products and not the main focus.
+
+![Color 1](./media/readme/color1.jpg) ![Color 2](./media/readme/color2.jpg)
+
+**Images**
+
+The images should represent the products. Since this is only an educational project and not a real store, they were sourced from actual sellers credited at the end of this Readme.
+
+
