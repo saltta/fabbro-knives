@@ -456,3 +456,39 @@ The Contact Us link in the footer works as intended and sends the user to a page
 Both the newsletter and contact form were made by custom models.
 
 Links to social media which are found in the footer work as intended and open a new tab for each one.
+
+### Bugs
+
+During development a few bugs were encountered.
+
+These bugs were usually due to a typo somewhere in the code.
+
+- Strange markings such as ('(",')") were appearing on personal details form when checking out. This was due to using commas when defining the fields in the code. 
+
+![Checkout bug](./media/readme/bugs/checkout.jpg)
+
+And this same bus led to the webhooks malfunctioning
+
+![webhooks](./media/readme/bugs/2webhooks.jpg)
+
+- When getting any toast message, if the basket had an item in it, the toast would show both the new message as well as the contents of the basket as it would when adding an item. 
+
+![basket bug](./media/readme/bugs/subscribe-basket%20bug.jpg)
+
+This was fixed with a new if statement in the html that displays messages and adding `extra_tags` in the view responsible for messages regarding items in the basket
+
+![basket tags](./media/readme/bugs/basketmessagetags.jpg)
+
+- The back to top arrown in the corner of the page was not showing up. The fix was to adjust its z-index.
+
+- 500 errors happened because I would occasionally forget to migrate models.
+
+- Heroku deployment failed. This was because I didn't use a capital letter P for Procfile.
+
+- Users could exploit the basket by using the inspect tool on the browser to modify min and max numbers of allowed items in the basket.
+
+![basket exploit](./media/readme/bugs/exploit.jpg)
+
+This was fixed by modifying the views in the basket app to perform server side validation.
+
+![exploit fix](./media/readme/bugs/exploitfix.jpg)
