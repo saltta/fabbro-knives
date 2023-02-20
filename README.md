@@ -319,4 +319,13 @@ Users can see their details and completed orders on their profiel page
 
 ![Profile](./media/readme/features/profile.jpg)
 
+Admin can edit and delete products
+
+![Edit delete](./media/readme/features/delete.jpg)
+
+Admin can add products
+
+![Add product](./media/readme/features/add.jpg)
+
+
 
