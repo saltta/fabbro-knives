@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<script>
 
     // Disable plus and minus buttons outside 1-99 range
     function handleEnableDisable(itemId) {
@@ -20,7 +20,7 @@
     $('.qty_input').change(function() {
         var itemId = $(this).data('item_id');
         handleEnableDisable(itemId);
-    })
+    });
 
     // Increase quantity
     $('.increment-qty').click(function(e) {
