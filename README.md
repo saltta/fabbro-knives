@@ -347,7 +347,7 @@ The JavaScript validation was done by copying all of the js used in the project 
 
 ![JavaScript](./media/readme/test/jsvalid.jpg)
 
-**Lighthouse tests** 
+### Lighthouse tests 
 
 Home on the desktop
 
