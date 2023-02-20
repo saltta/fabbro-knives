@@ -74,6 +74,8 @@ Thank you for considering Fabbro Knives for your kitchen product needs. We are c
 
 ## Scope
 
+I used Github Projects with Agile methodology
+
 ### User Expectations
 
 - As a user I expect the app to be accessible.
@@ -786,3 +788,14 @@ AWS_S3_OBJECT_PARAMETERS = {
 - Inside the folder, click 'Upload', 'Add files', and then select all the images that you are using for your site.
 - Then under 'Permissions' select the option 'Grant public-read access' and click upload.
 - Your static files and media files should be automatically linked from django to your S3 bucket.
+
+
+## Credits
+
+- [aaknives](https://aaknives.eu/en/shop/?product_cat=uncategorized&filter=1   ) - Outdoor knives photos
+- [Zakharov](https://www.zakharov.com.br/) - Kitchen knives photos
+- [Smoke and Pork](https://smokeandpork.ie) - Sharpener
+- [Brennan Catering Supplies](https://www.brennancateringsupplies.ie/Dual-Whetstone.html) - Whetstone, knife block, magnet and pans photos
+- [TOG Knives](https://www.togknives.com/product/the-hare/) - Cutting boards photos
+- [Freepik](https://www.freepik.com/) - No image placeholder photo
+- [Color Hexa](https://www.colorhexa.com/) - Color scheme
