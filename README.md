@@ -19,6 +19,20 @@ You can visit Fabbro Knives by [clicking here](https://fabbro.herokuapp.com)
 
 ![Responsive](./media//readme/responsive.jpg)
 
+## Table of Contents
+
+- [Business Plan](#business-plan)
+- [Scope](#scope)
+- [Structure](#structure)
+- [Skeleton](#skeleton)
+- [Surface](#surface)
+- [Features](#features)
+- [Testing](#testing)
+- [Technologies Used](#technologies-used)
+- [Deployment](#deployment)
+- [Credits](#credits)
+
+
 # UX
 
 ## Strategy
