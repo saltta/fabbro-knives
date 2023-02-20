@@ -83,7 +83,7 @@ Thank you for considering Fabbro Knives for your kitchen product needs. We are c
 ### User Stories
 
 - As a shopper, I want to be able to view a list of products so that I can select some to purchase.
-- As a shopper, I want to be able to view a list of products so that I can select some to purchase.
+- As a shopper, I want to be able to view individual product details so that I can identify price, description and image.
 - As a shopper, I want to be able to see deals and offers so that I can save on products I want to purchase.
 - As a shopper, I want to be able to view total of my purchase at any time so that I can avoid spending too much.
 - As a shopper, I want to be able to sort the list of products so that I can identify products by different types of sorting.
@@ -335,13 +335,19 @@ Custom 404 page
 
 ### Validators
 
+**HTML**
+
 This html validation via [W3C HTML Validator](https://validator.w3.org/) was done on all html pages and returned the same result.
 
 ![html](./media/readme/test/mainvalid.jpg)
 
+**CSS**
+
 The CSS validation was done via [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) and returned positive results.
 
 ![CSS](./media/readme/test/cssvalid.jpg)
+
+**JavaScript**
 
 The JavaScript validation was done by copying all of the js used in the project into [jshint](https://jshint.com/), all at once, and came back positive.
 
@@ -366,3 +372,80 @@ Product info on mobile
 ![Product info mobile](./media/readme/test/lhprodinfomobile.jpg)
 
 Lighthouse on other pages yielded similar results, for the future I would need to consider using a next-gen image format and a more uniform pattern for sizing the images in order to improve Lighthouse scores.
+
+**Python**
+
+Errors were checked for in python during writing as they would be pointed out in Gitpod's console. Also the errors shown on the local server while DEBUG was set to True in the project's *settings.py* file.
+
+### Manual Testing
+
+Behaviour Driven Development, is the process used to test user stories in a non-technical way. With that in mind a number of manual tests were completed to be sure that the app was functioning according to plan as well as to see if the responsiveness was working.
+
+>1.  As a shopper, I want to be able to view a list of products so that I can select some to purchase.
+    
+Easily achieved when on the landing page all you need to do is click on the buy now button or go through the navbar and select All Products or whichever category you'd like to see.
+
+>2. As a shopper, I want to be able to view individual product details so that I can identify price, description and image.
+
+On whichever list of products the user is they can click on any individual product which will lead them to that product's info page where they will find all the details
+
+>3. As a shopper, I want to be able to see deals and offers so that I can save on products I want to purchase.
+
+On the nav bar there is a dropdown menu for deals, they function as planned
+
+>4. As a shopper, I want to be able to view total of my purchase at any time so that I can avoid spending too much.
+
+The basket is always visible in the top right corner of the page and it is updated in real time every time something is added or removed, it is functioning as intended
+
+>5. As a shopper, I want to be able to sort the list of products so that I can identify products by different types of sorting.
+
+Via navbar the user can select which specific categories they would like to view, the dropdown menus have the options
+
+>6. As a shopper, I want to be able to sort a specific category of products so that I can find best-priced/rated product in a specific category or sort them by name.
+
+At the top of the product list there is a sorting menu which works and allows users to sort the items on that page in a manner of different ways
+
+>7. As a shopper, I want to be able to search a product by name or description so that I can find a specific product.
+
+The search bar which also sits in the navbar functions correctly and seeks items which contain the entered query in their name or description, results are positive
+
+>8. As a shopper, I want to be able to see what I've searched so that I can decide whether the product I want is available.
+
+When using the search bar, a list of items is made and displayed on the page correctly, showing only relevant results
+
+>9. As a shopper, I want to be able to select the quantity of a product when purchasing it so that I can ensure I don't accidentally select the wrong product quantity.
+
+On the product info page the user can select the number for the quantity of products they want to add to the basket, as well as adjust it in the basket. These numbers are limited from 1 - 99, any number outside that range will not work
+
+>10. As a user, I want to be able to register for an account so that I can have a personal profile.
+
+Via the navbar link the user can register for an account which will store their information for future purchases
+
+>11. As a user, I want to be able to login or logout so that I can access my personal account.
+
+Via navbar links to sign in or sign out pages, the user can log back into their account whenever they want as well as log out, both working as intended
+
+>12. As a user, I want to be able to recover my password in case I forget it so that I can recover access to my account.
+
+On the sign in page, in case the user has forgotten their password there is a link which will help them recover it. They get an email sent to them with instructions. These functions work fine
+
+>13. As a user, I want to be able to receive an email confirming registration so that I can verify my registration was successful.
+
+Whenever a new user registers an account on the website, they get sent an email confirming the registration has been successful. Emails are being sent as planned
+
+>14. As a user, I want to be able to have a user profile so that I can view my order history and confirmations, and save payment info.
+
+When registered and having completed purchases, the user can visit their profile page via the navbar link, there all of their previous orders are registered and easily accessible. 
+
+>15. As a superuser, I want to be able to add new products so that I can offer new products to sell.
+
+The admin when logged in can see a unique option on his user dropdown menu on the navbar which allows him to go to a page in which he can add a new product via frontend
+
+>16. As a superuser, I want to be able to delete products so that I can adjust the store according to available stock.
+
+On the products list or on the product's individual page, the admin has unique options which will allow him to edit or delete an existing item, the links work well
+
+>17. As a superuser, I want to be able to send newsletters so that I can inform our subscribers of new products and offers.
+
+In the footer of the website, visible from every page, there is a link to a newsletter form where any one can click on and subscribe to newsletter. The emails get registered in the database
+
